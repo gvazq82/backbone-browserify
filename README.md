@@ -30,7 +30,7 @@ To run the project:
 $ npm run build
 ```
 
-If everything went well the project will be running and available in 
+If everything went well the application will be available at: 
 ```
-localhost:3000
+$ /$path/backbone-browserify/index.html
 ```
