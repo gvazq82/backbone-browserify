@@ -1,6 +1,12 @@
 'use strict';
 
 var $ = require('jquery');
+
+// Need to require the controllers
+require('../app/controllers/about');
+require('../app/controllers/contact');
+require('../app/controllers/exception');
+require('../app/controllers/home');
 /*
  * Create a method to execute all the controllers on the application
  * @param {Object} Options: The object with the available options to execute the controller.
