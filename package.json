@@ -10,9 +10,11 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
     "browserify": "^13.1.1",
     "jasmine": "^2.5.2",
-    "jstify": "^0.14.0"
+    "jstify": "^0.14.0",
+    "node-sass": "^3.11.2"
   },
   "browserify": {
     "transform": [
@@ -21,6 +23,7 @@
   },
   "scripts": {
     "build-js": "browserify src/app.js > dist/bundle.js",
-    "build": "npm run build-js"
+    "build-css": "node-sass src/main.scss dist/bundle.css",
+    "build": "npm run build-js && npm run build-css"
   }
 }
