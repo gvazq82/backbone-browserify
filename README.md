@@ -24,13 +24,17 @@ $ npm install
 ```
 
 
-## Run
-To run the project:
+## Build
+To build the project:
 ```bash
 $ npm run build
 ```
 
 If everything went well the application will be available at: 
 ```
-$ /$path/backbone-browserify/index.html
+$ $path/backbone-browserify/index.html
 ```
+
+## Testing
+
+TBD

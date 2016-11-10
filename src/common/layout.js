@@ -14,7 +14,7 @@ var template = [ '<div class="navbar navbar-inverse navbar-fixed-top" role="navi
   '<li><a href="#exception">Exception</a></li>',
   '</ul>',
   '<div class="navbar-header">',
-  '<h3 class="text-muted">AMD-Basic</h3>',
+  '<h3 class="text-muted">CommonJS-Basic</h3>',
   '</div>',
   '</div>',
   '</div>',

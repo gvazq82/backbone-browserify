@@ -22,8 +22,11 @@
     ]
   },
   "scripts": {
+    "create-dist": "mkdir -p dist",
+    "clean-dist": "rm -rf dist",
+    "copy-fonts": "cp -R node_modules/bootstrap-sass/assets/fonts/ dist/fonts",
     "build-js": "browserify src/app.js > dist/bundle.js",
-    "build-css": "node-sass src/main.scss dist/bundle.css",
-    "build": "npm run build-js && npm run build-css"
+    "build-css": "node-sass src/main.scss dist/css/bundle.css",
+    "build": "npm run clean-dist && npm run create-dist && npm run build-js && npm run build-css && npm run copy-fonts"
   }
 }
